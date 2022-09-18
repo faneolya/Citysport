@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 0
+}
+body{
+  display: flex;
+  justify-content: center;
+}
+.App{
+  width: 100%;
+
+}
+html,body{
+  overflow-x: hidden;
+}
+.logo{
+  cursor: pointer
+}
+div .Marques{
+  height: 13vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.MarquesBox{
+  width: 100vw;
+  overflow: hidden;
+}
+.chaussuresBox{
+  width: 100vw;
+}
+.Selects{
+  display: flex;
+  margin: 4vw 5vw;
+}
+.Chaussures {
+width: 90vw;
+padding: 0;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+justify-content: space-between;
+margin: auto;
+
+}
+Card{
+  margin-top: 4vw;
+}
+.citysport{
+  height: 4vw;
+  cursor: pointer
+}
+h3{
+  text-align: center;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  margin: 1vw 5vw 0 5vw;
+  align-items: center;
+  width: 90vw;
+}
+.searchbox{
+  display: flex;
+  width: 90vw;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4vw 5vw 0 5vw;
+}
+Button, Stack{
+  height: 55px;
+}
+
+  img:hover{
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5);
+    }
+
